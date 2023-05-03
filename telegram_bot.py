@@ -1,3 +1,5 @@
+#Python 3
+
 #https://api.telegram.org/bot6147927066:AAHGd7ogh5qknKlVjSgROOm-_Z_JHT93xQA/getUpdates
 
 
@@ -8,8 +10,8 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, ContextTypes, CommandHandler, MessageHandler, filters
 
 
-token = "6147927066:AAHGd7ogh5qknKlVjSgROOm-_Z_JHT93xQA"
-chat_group_id = "-1001829782835" #Cajonera. Es el numero que aparece en la URL cuando se entra por web
+token = "6095997882:AAHaGOPlHBHChAx7Id0VX0OhpY31tCq5eog" # de waypointcaching_bot
+chat_group_id = "-1945532067" #waypointcaching_ycu. Es el numero que aparece en la URL cuando se entra por web
 
 distancia_para_toma_wp = 10 #km
 wp_cercanos=[ {'location': {'latitude':-34.91511667,'longitude':-56.12248333},'description': 'Boya Coquimbo'}, #Cerca Coquimbo
