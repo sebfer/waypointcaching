@@ -15,7 +15,7 @@ En telegram chatear con @BotFather
    
  ## Grupo
  Creado desde Telegram: waypointcaching_ycu.
- Para conseguir chat group id, hay que entrar por cliente web (desde chrome) y copiar el numero que aparece en la URL.
+ Para conseguir chat group id, hay que agregar a @RawDataBot al grupo y este lista el id
  
  Caracteristicas a setear:
   - que la historia este visible para nuevos miembros
