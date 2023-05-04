@@ -11,7 +11,9 @@ from telegram.ext import ApplicationBuilder, ContextTypes, CommandHandler, Messa
 
 
 token = "6095997882:AAHaGOPlHBHChAx7Id0VX0OhpY31tCq5eog" # de waypointcaching_bot
-chat_group_id = "-1945532067" #waypointcaching_ycu. Es el numero que aparece en la URL cuando se entra por web
+chat_group_id = "-1001945532067" #waypointcaching_ycu. Es el numero que aparece al agregar @RawDataBot al grupo
+
+# https://api.telegram.org/bot6095997882:AAHaGOPlHBHChAx7Id0VX0OhpY31tCq5eog/getUpdates
 
 distancia_para_toma_wp = 10 #km
 wp_cercanos=[ {'location': {'latitude':-34.91511667,'longitude':-56.12248333},'description': 'Boya Coquimbo'}, #Cerca Coquimbo
